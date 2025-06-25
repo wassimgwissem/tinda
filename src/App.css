@@ -1,0 +1,320 @@
+/* Navbar Base Styles */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: transparent !important;
+}
+
+/* Logo Animation */
+.hover-grow:hover {
+  transform: scale(1.05);
+}
+
+/* Custom Nav Links */
+.nav-link-custom {
+  color: #333 !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.5rem 0 !important;
+  margin: 0 0.5rem;
+  border: none;
+  background: transparent !important;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 -2px 0 transparent;
+}
+
+.nav-link-custom:hover {
+  color: #000 !important;
+  box-shadow: inset 0 -2px 0 #000;
+}
+
+/* Custom Dropdown */
+.nav-dropdown .dropdown-toggle {
+  color: #333 !important;
+  font-weight: 500 !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0.5rem 0 !important;
+  margin: 0 0.5rem;
+  box-shadow: inset 0 -2px 0 transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-dropdown .dropdown-toggle:hover {
+  box-shadow: inset 0 -2px 0 #000;
+}
+
+.nav-dropdown .dropdown-menu {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  min-width: 220px;
+}
+.dropdown-menu {
+    background: transparent !important;
+    border: 0;
+  
+}
+.dropdown-item-custom {
+  padding: 0.75rem 1.5rem;
+  color: #333 !important;
+  background: transparent !important;
+  transition: all 0.2s ease;
+  border-left: 2px solid transparent; /* Prepare for hover effect */
+}
+
+.dropdown-item-custom:hover {
+  background: rgba(0, 0, 0, 0.03) !important; /* Very subtle gray */
+  color: #000 !important;
+  border-left: 2px solid #000; /* Clean left border instead of inset */
+  padding-left: 1.5rem; /* Slight push */
+  transform: translateX(3px); /* Tiny movement */
+}
+
+/* Login Button */
+.btn-login-custom {
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-learn-custom:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-login-custom:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.btn-signup-custom {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-signup-custom:hover {
+  background: transparent;
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#socials:hover{
+  transform: scale(1.2) ;
+
+}
+
+/* Profile Upload Hover Effects */
+.profile-upload-label {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profile-upload-plus {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.profile-upload-label:hover {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.profile-upload-label:hover .fa-user-circle {
+  opacity: 0;
+}
+
+.profile-upload-label:hover .profile-upload-plus {
+  opacity: 1;
+}
+
+/* Selected state */
+.profile-upload-label.has-file .fa-user-circle {
+  color: #000 !important;
+}
+
+ .hover-bg-gray:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* For the dropdown triangle indicator */
+.dropdown-triangle {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #444;
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Admin-specific dropdown styles - won't affect other dropdowns */
+.admin-dropdown-menu {
+    background-color: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    margin-top: 0.5rem !important;
+    padding: 0.5rem 0 !important;
+    min-width: 220px !important;
+}
+
+.admin-dropdown-item {
+    padding: 0.75rem 1.5rem !important;
+    color: #333 !important;
+    background-color: transparent !important;
+    transition: all 0.2s ease !important;
+}
+
+.admin-dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.03) !important;
+    color: #000 !important;
+}
+
+.admin-dropdown-header {
+    background-color: #f8f9fa !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.admin-dropdown-divider {
+    margin: 0.5rem 0 !important;
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.admin-dropdown-toggle {
+    color: #333 !important;
+    font-weight: 500 !important;
+    background: transparent !important;
+    border: 1px solid #333 !important;
+    transition: all 0.3s ease !important;
+}
+
+.admin-dropdown-toggle:hover {
+    background-color: #333 !important;
+    color: white !important;
+}
+.users-list-container .users-list-dropdown {
+    position: relative;
+}
+
+.users-list-container .users-list-dropdown-toggle {
+    background-color: transparent;
+    border: 1px solid #dee2e6 !important;
+    transition: all 0.3s ease;
+}
+
+.users-list-container .users-list-dropdown-toggle:hover,
+.users-list-container .users-list-dropdown-toggle:focus {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    border-color: #dee2e6 !important;
+}
+
+.users-list-container .users-list-dropdown-toggle:after {
+    margin-left: 0.5rem;
+}
+
+.users-list-container .users-list-dropdown-menu {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 0;
+    overflow: hidden;
+    opacity: 1;
+    background-color: white
+}
+
+.users-list-container .users-list-dropdown-header {
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.users-list-container .users-list-dropdown-item {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    color: #212529;
+    transition: all 0.2s ease;
+    opacity: 1;
+    background-color: white;
+}
+
+.users-list-container .users-list-dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+    text-decoration: none;
+}
+
+.users-list-container .users-list-dropdown-divider {
+    margin: 0;
+    border-color: #dee2e6;
+}
+
+.users-list-container .users-list-logout-item {
+  
+  color: #dc3545;
+}
+
+.users-list-container .users-list-logout-item:hover {
+  background-color: rgb(224, 87, 101);
+  font-weight: 600;
+}
+
+.users-list-container .users-list-user-info {
+    min-width: 120px;
+}
+
+.users-list-container .users-list-profile-image {
+    object-fit: cover;
+}
+
+.users-list-container .users-list-refresh-btn {
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.users-list-container .users-list-refresh-btn:hover {
+    background-color: #f8f9fa;
+    color: #212529;
+    border-color: #dee2e6;
+}
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+  
+  .nav-link-custom {
+    font-size: 1rem;
+    margin: 0 0.3rem;
+  }
+  
+  .btn-login-custom {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+.fa-solid.fa-xmark:hover {
+  color: gray;
+  transition: color 0.2s ease;
+}
+
+.copyright-section {
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+  margin-top: 30px;
+  border-top: 1px solid gray;
+}
