@@ -1,12 +1,18 @@
-# React + Vite
+# SpaceMatch - Coworking Space Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built with Vite that helps professionals discover and book ideal coworking spaces based on their preferences.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Verified Spaces**: Curated selection of quality coworking environments
+- **Flexible Booking**: Hourly, daily, and monthly membership options
+- **Responsive UI**: Built with React Bootstrap for all device sizes
+- **Interactive Components**: Dynamic routing and navigation
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite (Build Tool)
+- React Router (Navigation)
+- React Bootstrap (UI Components)
+- CSS Modules (Styling)
